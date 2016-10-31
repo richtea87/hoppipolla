@@ -4,6 +4,8 @@
 @import "utils/screen";
 @import "utils/reset";
 
+
+
 body {
   background: #404040;
   text-align: center;
@@ -12,7 +14,9 @@ body {
 }
 
 .logo img {
-  height: 14em;
+  height: 6em;
+  @include shop-screen(large) { height: 12em; }
+  @include shop-screen(huge) { height: 14em; }
   margin-top: 4em;
 }
 
