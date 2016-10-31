@@ -42,8 +42,8 @@ p {
 
 .social-icons img {
   height: 1.5em;
-  @include hop-screen(large) { font-size: 2em; }
-  @include hop-screen(huge) { font-size: 2em; }
+  @include hop-screen(large) { height: 2em; }
+  @include hop-screen(huge) { height: 2em; }
   padding: 0.5em;
 }
 
