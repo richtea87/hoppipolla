@@ -1,0 +1,25 @@
+.topnav {
+  height: 65px;
+  background-color: #50ad62;
+}
+
+.topnav li {
+  display: inline-block;
+  padding: 20px;
+  float: left;
+  margin-left: 20px;
+  @include hop-screen(large) { margin-left: 25px; }
+  @include hop-screen(huge) { margin-left: 25px; }
+}
+
+.topnav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  @include hop-screen(large) { font-size: 22px; }
+  @include hop-screen(huge) { font-size: 22px; }
+}
+
+.topnav a:hover {
+  color: #ff9b50;
+}

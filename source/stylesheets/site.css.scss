@@ -3,14 +3,20 @@
 
 @import "utils/screen";
 @import "utils/reset";
+@import "partials/navigation";
+@import "blog";
 
 
 
 body {
-  background: #404040;
+  background: #595959;
   text-align: center;
   font-family: "Drakalligro", Arial, sans-serif;
   font-size: 1em;
+}
+
+.welcome {
+  clear: both;
 }
 
 .logo img {
@@ -26,6 +32,16 @@ h1 {
   font-size: 1.5em;
   @include hop-screen(large) { font-size: 1.8em; }
   @include hop-screen(huge) { font-size: 1.8em; }
+  font-weight: 100;
+  margin: 2em;
+}
+
+h2 {
+  color: white;
+  font-family: "Drakalligro", Arial, sans-serif;
+  font-size: 1.3em;
+  @include hop-screen(large) { font-size: 1.6em; }
+  @include hop-screen(huge) { font-size: 1.6em; }
   font-weight: 100;
   margin: 2em;
 }
