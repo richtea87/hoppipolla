@@ -1,6 +1,6 @@
 .blog-main {
   background-color: white;
-  width: 85%;
+  width: 86%;
   @include hop-screen(medium) { width: 70%; }
   @include hop-screen(large) { width: 60%; }
   @include hop-screen(huge) { width: 50%; }
