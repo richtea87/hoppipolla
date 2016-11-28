@@ -1,10 +1,10 @@
 .blog-main {
   background-color: white;
-  width: 84%;
+  width: 85%;
   @include hop-screen(medium) { width: 70%; }
   @include hop-screen(large) { width: 60%; }
   @include hop-screen(huge) { width: 50%; }
-  margin-left: 20px;
+  margin-left: 15px;
   @include hop-screen(medium) { margin-left: 70px; }
   @include hop-screen(large) { margin-left: 200px; }
   @include hop-screen(huge) { margin-left: 280px; }

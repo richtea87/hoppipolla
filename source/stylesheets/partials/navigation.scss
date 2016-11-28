@@ -1,5 +1,5 @@
 .topnav {
-  height: 60px;
+  height: 55px;
   @include hop-screen(medium) { height: 65px; }
   @include hop-screen(large) { height: 65px; }
   @include hop-screen(huge) { height: 65px; }
@@ -8,9 +8,12 @@
 
 .topnav li {
   display: inline-block;
-  padding: 20px;
+  padding: 18px;
+  @include hop-screen(medium) { padding: 20px; }
+  @include hop-screen(large) { padding: 20px; }
+  @include hop-screen(huge) { padding: 20px; }
   float: left;
-  margin-left: 18px;
+  margin-left: 17px;
   @include hop-screen(medium) { margin-left: 22px; }
   @include hop-screen(large) { margin-left: 25px; }
   @include hop-screen(huge) { margin-left: 25px; }
