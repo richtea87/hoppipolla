@@ -1,5 +1,8 @@
 .topnav {
-  height: 65px;
+  height: 60px;
+  @include hop-screen(medium) { height: 65px; }
+  @include hop-screen(large) { height: 65px; }
+  @include hop-screen(huge) { height: 65px; }
   background-color: #50ad62;
 }
 
@@ -7,7 +10,8 @@
   display: inline-block;
   padding: 20px;
   float: left;
-  margin-left: 20px;
+  margin-left: 18px;
+  @include hop-screen(medium) { margin-left: 22px; }
   @include hop-screen(large) { margin-left: 25px; }
   @include hop-screen(huge) { margin-left: 25px; }
 }
@@ -15,7 +19,8 @@
 .topnav a {
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
+  @include hop-screen(medium) { font-size: 20px; }
   @include hop-screen(large) { font-size: 22px; }
   @include hop-screen(huge) { font-size: 22px; }
 }
