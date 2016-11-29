@@ -18,6 +18,8 @@ page '/*.txt', layout: false
 
 # General configuration
 
+activate :directory_indexes
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
@@ -27,7 +29,7 @@ end
 # Helpers
 ###
 
-activate :directory_indexes
+
 
 # Methods defined in the helpers block are available in templates
 # helpers do
