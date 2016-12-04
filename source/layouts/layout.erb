@@ -1,24 +1,9 @@
 <!doctype html>
-<html>
-  <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Hoppipolla" %></title>
-
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-    <link href="//db.onlinewebfonts.com/c/e31bb6ddec72dd0dc0b83a9281aeecc4?family=Drakalligro" rel="stylesheet" type="text/css"/>
-
-    <%= stylesheet_link_tag :site %>
-    <%= javascript_include_tag :all %>
-  </head>
-
-  <body class="<%= page_classes %>">
-
-    <%= partial 'partials/navigation' %>
-
-    <%= yield %>
-  </body>
+<html lang="en">
+<%= partial "partials/header" %>
+<body class="<%= page_classes %>">
+  <%= partial 'partials/navigation' %>
+  <%= yield %>
+  <%= javascript_include_tag ("all.js") %>
+</body>
 </html>

@@ -10,14 +10,12 @@
   @include hop-screen(medium) { padding: 40px; }
   @include hop-screen(large) { padding: 40px; }
   @include hop-screen(huge) { padding: 40px; }
-  font-family: "Helvetica Neue", Arial, sans-serif;
   overflow: hidden;
 }
 
 .blog-main h1, .blog-main h2, .blog-main h3, .blog-main p {
   color: #404040;
   text-align: left;
-  font-family: "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
 }
 

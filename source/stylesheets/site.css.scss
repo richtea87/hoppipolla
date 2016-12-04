@@ -11,8 +11,9 @@
 body {
   background: #595959;
   text-align: center;
-  font-family: "Drakalligro", Arial, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1em;
+  font-weight: 600;
 }
 
 .welcome {
@@ -28,7 +29,6 @@ body {
 
 h1 {
   color: white;
-  font-family: "Drakalligro", Arial, sans-serif;
   font-size: 1.5em;
   @include hop-screen(large) { font-size: 1.8em; }
   @include hop-screen(huge) { font-size: 1.8em; }
@@ -38,7 +38,6 @@ h1 {
 
 h2 {
   color: white;
-  font-family: "Drakalligro", Arial, sans-serif;
   font-size: 1.3em;
   @include hop-screen(large) { font-size: 1.6em; }
   @include hop-screen(huge) { font-size: 1.6em; }
@@ -48,7 +47,6 @@ h2 {
 
 p {
   color: white;
-  font-family: "Drakalligro", Arial, sans-serif;
   font-size: 1.2em;
   @include hop-screen(large) { font-size: 1.5em; }
   @include hop-screen(huge) { font-size: 1.5em; }
